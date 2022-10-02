@@ -15,7 +15,7 @@ const AxiosHelloWorld = () => {
         })
         .catch((error) => {
             // handle error
-            setIssTleData(`Error: ${error}`)
+            setIssTleData(`Error: ${error}`);
         });
     }, []);
 
